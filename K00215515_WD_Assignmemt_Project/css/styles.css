@@ -1,0 +1,241 @@
+body{
+    background-color: darkslategrey;
+}
+header h1 span.colour {
+    color: black;
+    text-decoration: overline underline;
+    font-family: monospace;
+    font-size: 0.99em;
+}
+h2{
+    font-size: 1.8em;
+    text-decoration: underline;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+h3{
+    font-size: 1.35em;
+    font-family: sans-serif;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+p{
+    font-family: sans-serif;
+    word-spacing: 2px;
+    margin-left: 10px;
+}
+header {
+    background-color: greenyellow;
+    font-size: 1.5em;
+    font-family: serif;
+}
+div#page{
+    margin-left: auto;
+    margin-right: auto;    
+}
+input {
+    display: block;
+    margin-left: auto; 
+    height: 1.5em;
+}
+nav li{
+    display: inline;
+}
+nav {
+    background-color: red;
+    font-size: .8em;  
+    word-spacing: 1.5px; 
+    color: white;
+}
+footer {
+    text-align: center;    
+}
+footer a {
+    padding-top: 10px;
+    font-size: 1.25em;
+    text-decoration: underline;
+}
+div#footer {
+    background-color: greenyellow;
+}
+@media all and (min-width: 360px) 
+    
+    {
+        #page {
+            background-color: lightgreen;
+            min-height: 600px;
+            width:340px;
+        } 
+        header{
+            font-family: monospace;
+        }
+        header h1 {
+            text-align: center;
+            color: red;
+            text-decoration: overline underline;
+            padding-top: 15px;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+        }
+        header h1 span.colour {
+            font-size: 0.89em;
+            text-transform: lowercase;
+        }
+        h2{
+            font-size: 1.5em;
+        }
+        p{
+            font-size: 1.2em;
+        }
+        ol {
+            font-size:  1.1em;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        p em {
+            font-size: 0.9em;
+        }
+        img {
+            height: 250px;
+            width: 330px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        nav {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        nav a{
+            display: block;
+            width: 85%;
+            font-family: serif;
+            margin-left: 8px;
+            color: white;
+        }
+        nav a:hover {
+            background-color: darkblue;
+            text-decoration: underline;
+            color: white;
+        }
+    }  
+@media all and ( min-width:780px) 
+    
+    {
+        #page {
+            background-color: aliceblue;
+            min-height:300px;
+            min-width:620px;
+        } 
+        header{
+            font-family: monospace;
+            font-size: 1.4em;
+        }
+        header h1 {
+            text-align: center;
+            color: red;
+            text-decoration: overline underline;
+            padding-top: 15px;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+        }
+        header h1 span.colour {
+            font-size: 0.9em;
+            text-transform: lowercase;
+        }
+        h2{
+            font-size: 2.4em;
+        }
+        p{
+            font-size: 1.9em;
+        }
+        ol {
+            font-size: 1.9em;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        p em {
+            font-size: 1.6em;
+        }
+        img {
+            height: 300px;
+            width: 500px;
+            margin-left: 40px;
+        }
+        nav {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        nav a {
+            display: inline;
+            font-size: 0.8em;
+            font-family: serif;
+            margin-left: 14px;
+            
+        }
+        nav a:hover {
+            background-color: darkblue;
+            text-decoration: underline;
+            color: white;
+        }
+    }
+@media all and ( min-width:1010px) 
+    
+    {
+        #page {
+            background-color: lightgray;
+            min-height:1010px;
+            width:1150px;
+        }
+        header{
+            font-family: monospace;
+            font-size: 1.5em;
+        }
+        header h1 {
+            text-align: center;
+            color: red;
+            text-decoration: overline underline;
+            padding-top: 15px;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+        }
+        header h1 span.colour {
+            font-size: 0.96em;
+            text-transform: lowercase;
+        }
+        h2{
+            font-size: 3em;
+        }
+        p{
+            font-size: 2.1em;
+        }
+        ol {
+            font-size: 2.3em;
+            margin-left: 20px;
+            margin-right: 2px;
+        }
+        p em {
+            font-size: 2em;
+        }
+        img {
+            height: 400px;
+            width: 800px;
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        nav {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        nav a{
+            display: inline;
+            width: auto;
+            font-size: 1.5em;
+            font-family: serif;
+            margin-left: 20.5px;
+        }
+        nav a:hover {
+            background-color: darkblue;
+            text-decoration: underline;
+            color: white;
+        }
+    }
